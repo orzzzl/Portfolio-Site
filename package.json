@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is the final project for the front-end lesson of the Udacity Full-Stack nano-degree.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orzzzl/Portfolio-Site.git"
+  },
+  "keywords": [
+    "portfolio",
+    "frontend"
+  ],
+  "author": "Zeleng Zhuang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orzzzl/Portfolio-Site/issues"
+  },
+  "homepage": "https://github.com/orzzzl/Portfolio-Site#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2"
+  }
+}
