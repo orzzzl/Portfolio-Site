@@ -6,75 +6,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio Site</title>
-    <link rel="stylesheet" href="dist/final.min.css" />
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-xs-3 col-sm-6" id="logo">
-                <img id="logopic" src="images/udacity.svg" alt="logo" />
-            </div>
-            <div class="col-xs-9 col-sm-6 text-right name_banner">
-                Zeleng Zhuang
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12" id="line">
-                <svg width="100%" xmlns="http://www.w3.org/2000/svg">
-                    <line x1="0%" y1="10" x2="100%" y2="10" stroke-width="2" stroke="#7d97ad" />
-                </svg>
-            </div>
-        </div>
-        <div class="row" id="pic">
-            <div class="col-xs-12">
-                <picture id="pic_content">
-                    <source media="(min-width: 1024px)" class="pic_content" srcset="images/pic_1024.jpg" />
-                    <source media="(min-width: 600px)" class="pic_content" srcset="images/pic_800.jpg" />
-                    <img src="images/pic_400.jpg" class="pic_content" alt="great picture" />
-                </picture>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 text-left">
-                <h2>featured work</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="col-md-12">
-                    <img src="images/small1.jpg" class="pic_content" alt="baseball" />
+        <header>
+            <div class="row">
+                <div class="col-xs-2">
+                    <img class="img-responsive logo" src="images/udacity.svg" alt="logo" />
                 </div>
-                <div class="col-md-12 text-center">
-                    <h4>Baseball</h4>
-                </div>
-                <div class="col-md-12">
-                    <a href="https://orzzzl.github.io/Portfolio-Site/images/small1.jpg" class="zocial-github link">View on Github</a>
+                <div class="col-xs-10 text-right name-banner">
+                    <p> Zeleng Zhuang </p>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="col-md-12">
-                    <img src="images/small2.jpg" class="pic_content" alt="puppy" />
-                </div>
-                <div class="col-md-12 text-center">
-                    <h4>Puppy</h4>
-                </div>
-                <div class="col-md-12">
-                    <a href="https://orzzzl.github.io/Portfolio-Site/images/small1.jpg" class="zocial-github link">View on Github</a>
+            <div class="row">
+                <div class="col-xs-12 line">
+                    <svg width="100%" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="0%" y1="10" x2="100%" y2="10" stroke-width="2" stroke="#7d97ad" />
+                    </svg>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="col-md-12">
-                    <img src="images/small3.jpg" class="pic_content" alt="swimming" />
-                </div>
-                <div class="col-md-12 text-center">
-                    <h4>Swimming</h4>
-                </div>
-                <div class="col-md-12">
-                    <a href="https://orzzzl.github.io/Portfolio-Site/images/small1.jpg" class="zocial-github link">View on Github</a>
+        </header>
+        <main>
+            <div class="row">
+                <div class="col-xs-12">
+                    <picture class="img-responsive">
+                        <source media="(min-width: 1024px)" class="img-responsive" srcset="images/pic_1024.jpg" />
+                        <source media="(min-width: 600px)" class="img-responsive" srcset="images/pic_800.jpg" />
+                        <img src="images/pic_400.jpg" class="img-responsive" alt="great picture" />
+                    </picture>
                 </div>
             </div>
-        </div>
+            <div class="row">
+                <div class="col-xs-12 text-left">
+                    <h2>featured work</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-md-12">
+                        <img src="images/small1.jpg" class="img-responsive" alt="baseball" />
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <h4>Baseball</h4>
+                    </div>
+                    <div class="col-md-12">
+                        <p> <a href="https://orzzzl.github.io/Portfolio-Site/images/small1.jpg" class="zocial-github link">View on Github</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-md-12">
+                        <img src="images/small2.jpg" class="img-responsive" alt="puppy" />
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <h4>Puppy</h4>
+                    </div>
+                    <div class="col-md-12">
+                        <p> <a href="https://orzzzl.github.io/Portfolio-Site/images/small1.jpg" class="zocial-github link">View on Github</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-md-12">
+                        <img src="images/small3.jpg" class="img-responsive" alt="swimming" />
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <h4>Swimming</h4>
+                    </div>
+                    <div class="col-md-12">
+                        <p> <a href="https://orzzzl.github.io/Portfolio-Site/images/small1.jpg" class="zocial-github link">View on Github</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="text-muted">A web page built by Zeleng Zhuang.</p>
+        </footer>
     </div>
 </body>
 
