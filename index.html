@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio Site</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3 col-sm-6" id="logo">
+                <img id="logopic" src="images/udacity.svg" alt="logo" />
+            </div>
+            <div class="col-xs-9 col-sm-6 text-right name_banner">
+                 Zeleng Zhuang
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12" id="line">
+                <svg width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0%" y1="10" x2="100%" y2="10" stroke-width="2" stroke="#7d97ad" />
+                </svg>
+            </div>
+        </div>
+        <div class="row" id="pic">
+            <div class="col-xs-12">
+                <picture id="pic_content">
+                	<source media="(min-width: 1024px)" class="pic_content" srcset="images/pic_1024.jpg" />
+                	<source media="(min-width: 600px)" class="pic_content" srcset="images/pic_800.jpg" />
+                	<img src="images/pic_400.jpg" class="pic_content" alt="great picture" />
+                </picture>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-left">
+                <h2>featured work</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="col-md-12">
+                    <img src="images/small1.jpg" class="pic_content" alt="baseball" />
+                </div>
+                <div class="col-md-12 text-center">
+                    <h4>Baseball</h4>
+                </div>
+                <div class="col-md-12">
+                    github1
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="col-md-12">
+                    <img src="images/small2.jpg" class="pic_content" alt="puppy" />
+                </div>
+                <div class="col-md-12 text-center">
+                    <h4>Puppy</h4>
+                </div>
+                <div class="col-md-12">
+                    github2
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="col-md-12">
+                    <img src="images/small3.jpg" class="pic_content" alt="swimming" />
+                </div>
+                <div class="col-md-12 text-center">
+                    <h4>Swimming</h4>
+                </div>
+                <div class="col-md-12">
+                    github3
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

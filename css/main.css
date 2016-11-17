@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+* {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#logopic {
+	width: 60px;
+	margin-left: 20px;
+}
+
+#logo {
+	padding-top: 23px;
+}
+
+#line {
+	padding-right: 10px;
+	margin-bottom: -100px;
+}
+
+#pic {
+	padding-top: -60px;
+	margin-top: -60px;
+}
+
+.pic_content {
+	max-width: 100%;
+}
+
+.name_banner {
+	padding-top: 28px;
+	font-size: 5vw;
+}
