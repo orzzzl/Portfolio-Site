@@ -1,2 +1,2 @@
 # Portfolio-Site
-This is the final nano-project for the front-end nano-lesson of the Udacity Full-Nano-Stack nano-degree.
+This is the final <s>nano-</s>project for the front-end <s>nano-</s>lesson of the Udacity Full<s>-Nano-</s>Stack nano-degree.
