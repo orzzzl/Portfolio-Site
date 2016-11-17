@@ -22,6 +22,8 @@
   "homepage": "https://github.com/orzzzl/Portfolio-Site#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-mini-css": "0.0.3",
     "gulp-rename": "^1.2.2"
   }
 }
